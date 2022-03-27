@@ -1,19 +1,18 @@
-# Proyecto del Segundo Cuatrimestre Fundamentos de Programación (Curso  \<XX\>/\<YY\>)
-Autor/a: \<nombre del autor\>   uvus:\<uvus del autor\>
+# Proyecto del Segundo Cuatrimestre Fundamentos de Programación (Curso  2021/2022)
+Autor/a: Virgilio Oliva Alonso  uvus:virolialo
 
-Aquí debes añadir la descripción del dataset y un enunciado del dominio del proyecto.
+El proyecto está orientado a la Vacunación de la COVID y los pacientes
+relaciados con el mismo, describiendo alguno de los datos de salud más destacables.
 
 
 ## Estructura de las carpetas del proyecto
 
 * **/src**: Contiene los diferentes archivos que forman parte del proyecto. Debe estar estructurado en los siguentes paquetes
-  * **fp.\<dominio\>**: Paquete que contiene los tipos del proyecto.
-  * **fp.\<dominio\>.test**: Paquete que contiene las clases de test del proyecto.
-  * **fp.common**: Paquete que contiene los tipos auxiliares del proyecto
-  * **fp.utiles**:  Paquete que contiene las clases de utilidad. 
+  * **fp.clinico**: paquete que contiene a los objetos de tipo Persona.
+  * **fp.pruebas**: paquete que contiene las distintas clases para probar el código implementado para el desarrollo.
+  * **fp.common**: paquete que contiene los tipos auxiliares del proyecto
+  * **fp.utiles**:  paquete que contiene las clases de utilidad. 
 * **/data**: Contiene el dataset o datasets del proyecto
-    * **\<dataset1.csv\>**: Añade una descripción genérica del dataset.
-    * **\<dataset2.csv\>**: Añade una descripción del resto de datasets que puedas tener.
     
 ## Estructura del *dataset*
 
@@ -27,7 +26,7 @@ El dataset está compuesto por \<N\> columnas, con la siguiente descripción:
 
 ## Tipos implementados
 
-Describe aquí los tipos que usas en tu proyecto.
+* **Persona:** tipo para representar a personas físicas y alguno de sus datos. 
 
 ### Tipo Base
 Descripción breve del tipo base.
