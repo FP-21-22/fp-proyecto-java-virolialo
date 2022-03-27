@@ -15,7 +15,6 @@ relaciados con el mismo, describiendo alguno de los datos de salud más destacab
 * **/data**: Contiene el dataset o datasets del proyecto
     
 ## Estructura del *dataset*
-Para esta primera entrega, aún no disponemos de dataset a implementar en el proyecto.
 
 Aquí debes describir la estructura del dataset explicando qué representan los datos que contiene y la descripción de cada una de las columnas. Incluye también la URL del dataset original.
 
